@@ -1,0 +1,20 @@
+site_name: My Docs
+theme:
+  name: "material"
+  features:
+    - navigation.instant
+nav:
+  - bienvenue.md
+  - Débutants:
+    - Qu'est-ce qu'un programme: debutant/index.md
+    - debutant/fonctions.md
+    - debutant/objets.md
+markdown_extensions:
+  # code highlighting
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+  # tip blocks
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
